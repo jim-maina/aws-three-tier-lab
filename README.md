@@ -24,7 +24,7 @@ Architecture
 
 All inside one VPC: cloud-lab-vpc (10.0.0.0/16), region eu-north-1 (Stockholm)
 
-[Add your architecture diagram image here, for example ![Architecture diagram](images/architecture.png)]
+
 What I built
 Piece	What it is	Why it's there
 VPCcloud-lab-vpc	My own private network	Isolates the project from everything else
