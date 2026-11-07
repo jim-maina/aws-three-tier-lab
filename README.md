@@ -70,7 +70,7 @@ What I learned
 ·	A "timed out" error right after launch usually means the resource is still starting, not that something is broken.
 ·	Console settings can quietly change the design (for example the default DB subnet group), so it's worth checking each section before creating anything.
 ·	Least privilege: only allow the traffic that is actually needed.
-Limitations (honest notes)
+Limitations 
 ·	The web server is not yet connected to the database. The firewall rules allow it, but I haven't set up the connection.
 ·	The site uses plain HTTP only. A real shop needs a domain name and an HTTPS certificate.
 ·	The web server sits in a public subnet. A stricter design would place it in a private subnet behind the load balancer.
